@@ -143,6 +143,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     records.clear();
                     viewData();
 
+                    saveRecordLayoutEdtName.setText("");
+                    saveRecordLayoutEdtAddress.setText("");
+
                    // mDatabaseManager.close();
                    // listviewTxtCloseConnection.setVisibility(View.VISIBLE);
                    // allrecordsListView.setVisibility(View.GONE);
@@ -193,6 +196,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                     records.clear();
                     viewData();
+
+                    updateRecordLayoutEdtName.setText("");
+                    updateRecordLayoutEdtAddress.setText("");
 
                     closeConncection();
 
