@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     saveRecordLayoutEdtName.setText("");
                     saveRecordLayoutEdtAddress.setText("");
 
-                   // mDatabaseManager.close();
+                    //mDatabaseManager.close();
                    // listviewTxtCloseConnection.setVisibility(View.VISIBLE);
                    // allrecordsListView.setVisibility(View.GONE);
 
